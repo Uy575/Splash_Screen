@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+:root{
+ --primary-color: #000;
+}
+[data-theme="dark"]{
+    --primary-color: #fff;
+   }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container{
+    height: 1377px;
+    position: relative;
+    width: 1440px;
+    margin: auto;
+}
+
+.brand{
+    position: absolute;
+    width: 193px;
+    height: 47.64px;
+    left: 221px;
+    top: 50.25px;
+    
+    }
+    
+.mainSection > h1{
+position: absolute;
+width: 458px;
+height: 135px;
+left: 221px;
+top: 236px;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 68px;
+}
+.mainSection > p{
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    left: 221px;
+    top: 403px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.appleServices{
+    position: absolute;
+    width: 138.44px;
+    height: 46.28px;
+    left: 221px;
+    top: 530px;
+    
+}
+.appleServices img{
+    width: 138.44px;
+    height: 46.28px;
+}
+.googleServices img{
+    position: absolute;
+    width: 156.19px;
+    height: 46.28px;
+    left: 381.81px;
+    top: 530px;
+}
+.googleServices img{
+    width: 156.19px;
+    height: 46.28px;
+}
+
+.mainImageContainer{
+position: absolute;
+width: 535.72px;
+height: 309.27px;
+left: 683.28px;
+top: 229.73px;  
+}
+.mainImageContainer img{
+    height: 411.15px;
+}
+
+.home{
+position: absolute;
+height: 470px;
+left: 995px;
+right: 221px;
+top: 908px;
+
+}
+.cart{
+    position: absolute;
+    height: 222px;
+    left: 221px;
+    right: 995px;
+    top: 1157px;
+}
+.orders{
+    position: absolute;
+    height: 470px;
+    left: 479px;
+    right: 737px;
+    top: 913px;
+}
+.product{
+    position: absolute;
+    height: 222px;
+    left: 737px;
+    right: 479px;
+    top: 1157px;
+}
+.profile{
+    position: absolute;
+    height: 444px;
+    left: 737px;
+    right: 479px;
+    top: 686px;
+}
+
+.backgroundChanger{
+    position: absolute;
+    right: 150px;
+    top: 50.25px;
+    display: flex;
+    gap: 20px;
+}
+.colorBox{
+    width: 3rem;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 3rem;
+}
+.firstBg{
+
+ background: #aa4b6b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.secondBg{
+
+    background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   }
+
+.thirdBg{
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
